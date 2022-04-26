@@ -39,6 +39,7 @@ export const Navigation = styled.nav`
   min-height: 60px;
   margin: 0;
   top: 0;
+
   @media screen and (max-width: 480px) {
     height: 60px;
   }
@@ -49,6 +50,7 @@ export const NavBrand = styled.h1`
   font-size: 1.5rem;
   margin: 0;
   padding-left: 25px;
+
   @media screen and (max-width: 480px) {
     height: 60px;
     line-height: 60px;
@@ -62,6 +64,7 @@ export const NavArea = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: row;
+
   @media screen and (max-width: 480px) {
     display: none;
   }
@@ -72,6 +75,7 @@ export const NavItems = styled.div`
   font-weight: bold;
   font-size: 1.2rem;
   text-align: center;
+
   @media screen and (max-width: 480px) {
     min-width: 100px;
   }
@@ -86,6 +90,7 @@ export const NavLink = styled(Link)`
     background: #000;
     color: #fff;
   }
+
   @media screen and (max-width: 480px) {
     padding: 0.5em;
     border-radius: 0.3em;
@@ -102,6 +107,7 @@ export const NavForienLink = styled.a`
     background: #000;
     color: #fff;
   }
+
   @media screen and (max-width: 480px) {
     padding: 0.5em;
     border-radius: 0.3em;
